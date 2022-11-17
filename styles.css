@@ -1,0 +1,77 @@
+*:not(code) {
+  background-color: #0d1116;
+  color: azure;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin: 5px;
+  margin-top: 10px;
+  line-height: 1.5;
+}
+header {
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  color: azure;
+  text-decoration: none;
+  border-radius: 10px;
+  font-size: large;
+  font-weight: bold;
+  background-color: #7b43c6;
+}
+header:hover {
+  background-color: #0d1116;
+  color: #7b43c6;
+}
+p {
+  text-align: justify;
+  text-justify: inter-word;
+  margin: 30px;
+}
+#main-doc {
+  position: absolute;
+  margin-left: 310px;
+  padding: 20px;
+  margin-bottom: 110px;
+}
+#navbar {
+  position: fixed;
+  min-width: 220px;
+  top: 0px;
+  left: 0px;
+  width: 300px;
+  height: 100%;
+  border-right: solid;
+  border-right-color: currentcolor;
+  border-color: #7ee787;
+}
+#fornav {
+  background-color: #7ee787;
+  color: black;
+}
+#fornav:hover {
+  background-color: black;
+  color: #7ee787;
+}
+#navbar li {
+  color: #4d4e53;
+  border-top: 1px solid;
+  list-style: none;
+  position: relative;
+  width: 100%;
+  margin-left: -30px;
+}
+
+#first {
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  color: black;
+  background-color: #7ee787;
+  text-decoration: none;
+  border-radius: 10px;
+}
+#first:hover {
+  background-color: black;
+  color: #7ee787;
+}
